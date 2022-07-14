@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to voice converter</title>
+    <link rel="icon" type="image/x-icon" href="Favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <marquee class="text" width="100%" direction="right" height="100px">
+        <h2>Greetings Everyone welcome to my website!!!</h2>
+        </marquee>
+    <div class="wrapper">
+        <h3>Text to voice converter</h3>
+        <textarea id="text">Hii, Everyone my name is Anjali welcome to my website.</textarea>
+        <label>
+            <span>Voice</span>
+            <select id="voice_list"></select>
+        </label>
+        <label>
+            <span>Volume</span>
+            <input type="range" class="slider" id="volume_up_down" min="0" max="1" value="0.5" step="0.1" />
+        </label>
+        <label>
+            <span>Rate</span>
+            <input type="range" class="slider" id="rate_up_down" min="0" max="1" value="0.5" step="0.1" />
+        </label>
+        <label>
+            <span>Pitch</span>
+            <input type="range" class="slider" id="pitch_up_down" min="0" max="2" value="0.5" step="0.1" />
+        </label>
+        <div class="button" onclick="speak();">Speak Text</div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Sedgwick+Ave&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #661899b5;
+}
+.wrapper{
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 550px;
+    padding: 20px;
+    box-shadow: 0 0 10px 0 #000;
+    border-radius: 5px;
+}
+.wrapper h3{
+    color: #d900ee;
+    font-size: 32px;
+    font-family: 'Lobster', sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.wrapper textarea{
+    width: 100%;
+    height: 150px;
+    font-size: 17px;
+    padding: 14px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #d900ee;
+    color: #7800ee;
+}
+.wrapper textarea::-webkit-scrollbar{
+    width: 0;
+}
+.wrapper label{
+    display: block;
+    width: 100%;
+}
+.wrapper label span{
+    width: 100%;
+    margin-top: 20px;
+    display: inline-block;
+    color: #d900ee;
+    font-weight: 600;
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+.wrapper label select,
+.wrapper label input{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.wrapper label select{
+    background-color: #9c4dd0;
+    color: #fff;
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.wrapper label select::-webkit-scrollbar{
+    width: 0;
+}
+.slider{
+    -webkit-appearance: none;
+    height: 5px;
+    background-color: #9764e8e8;
+    border-radius: 5px;
+}
+.slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    background-color: #8447d9;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    box-shadow: 0 0 0 0 rgba(98, 0, 238, .1);
+}
+.slider::-webkit-slider-thumb:hover{
+    box-shadow: 0 0 0 20px rgba(98, 0, 238, .1);
+}
+.button{
+    display: inline-block;
+    /* background-color: #7800ee; */
+    background-color: #a562e8;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 20px 0 0;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    box-shadow: 0 0 0 0 rgba(98, 0, 238, .1);
+}
+.button:hover{
+    box-shadow: 0 0 0 10px rgba(98, 0, 238, .1);
+}
+
+.text h2{
+    background-color: rgba(183, 0, 255, 0.157);
+    color: #d900ee;
+}
